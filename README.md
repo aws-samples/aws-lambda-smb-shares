@@ -1,4 +1,4 @@
-## Integrating AWS Lambda with SMB file shares!
+## Integrating AWS Lambda with SMB file shares
 ### Prerequisites
 •	AWS credentials that provide the necessary permissions to create the resources. This example uses admin credentials.
 
