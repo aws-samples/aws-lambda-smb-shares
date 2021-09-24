@@ -11,18 +11,16 @@
 •	Clone this repo. 
 
 #### Deployment steps
-1.	Navigate to the cloned repo directory. 
-2.	Rename SAM template to `template.yaml` based on which runtime you want to test.
-    - To deploy the template containing the Python function:
-    `mv templatePython.yaml template.yaml`
-    - To deploy the template containing the .NET Core function:
-    `mv templateDotNet.yaml template.yaml`
-      
-      *Note: SAM CLI commands accept optional parameter (`--template`) to specify a non-default template name. In this demo deployment, I let SAM CLI default to `template.yaml`
+1.	Navigate to the cloned repo directory, or run `sam init` then choose ‘Custom Template Location’ and paste the repo URL.
+2.	Build the AWS SAM application, replace <templateName> with Python or DotNet template:
+    
+    `sam build -t <templateName>`
 3.	Build the AWS SAM application:
-`sam build`
+    
+    `sam build`
 4.	Deploy the AWS SAM application:
-`sam deploy –guided`
+    
+    `sam deploy –guided`
 
 
 ## Security
