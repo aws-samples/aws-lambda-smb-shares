@@ -15,10 +15,8 @@
 2.	Build the AWS SAM application, replace <templateName> with Python or DotNet template:
     
     `sam build -t <templateName>`
-3.	Build the AWS SAM application:
-    
-    `sam build`
-4.	Deploy the AWS SAM application:
+
+3.	Deploy the AWS SAM application:
     
     `sam deploy –guided`
 
