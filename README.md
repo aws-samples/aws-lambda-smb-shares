@@ -1,6 +1,6 @@
 ## Integrating AWS Lambda with SMB file shares
 
-[Read the post](https://aws.amazon.com/blogs/storage/enabling-smb-access-for-serverless-workloads/) on AWS Storage blog
+[Read the post](https://aws.amazon.com/blogs/storage/enabling-smb-access-for-serverless-workloads/) on AWS Storage blog.
 
 ### Prerequisites
 •	AWS credentials that provide the necessary permissions to create the resources. This example uses admin credentials.
