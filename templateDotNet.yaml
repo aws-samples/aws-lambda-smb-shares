@@ -157,7 +157,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: lambda-smb-dotnet::lambda_smb_dotnet.WriteFiles::FunctionHandler
-      Runtime: dotnetcore3.1
+      Runtime: dotnet8
       CodeUri: src/dotNetSMB
       Description: DotNet function to integarte with SMB file servers
       MemorySize: 512
