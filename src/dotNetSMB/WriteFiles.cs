@@ -171,7 +171,7 @@ namespace lambda_smb_dotnet
             SecretJSON secretJSON = JsonSerializer.Deserialize<SecretJSON>(secretValue);
 
             SMB2Client client = new SMB2Client();
-            bool isConnected = client.Connect(IPAddress.Parse(secretJSON.host), SMBTransportType.DirectTCPTransport); // Attempt connecting to SMB share
+            bool isConnected = client.Connect(secretJSON.host, SMBTransportType.DirectTCPTransport); // Attempt connecting to SMB share
 
             if (isConnected)
             {
